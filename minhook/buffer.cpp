@@ -27,7 +27,7 @@
  */
 
 #include <windows.h>
-#include "buffer.h"
+#include "buffer.hpp"
 
 // Size of each memory block. (= page size of VirtualAlloc)
 #define MEMORY_BLOCK_SIZE 0x1000

@@ -30,9 +30,9 @@
 #include <tlhelp32.h>
 #include <limits.h>
 
-#include "MinHook.h"
-#include "buffer.h"
-#include "trampoline.h"
+#include "MinHook.hpp"
+#include "buffer.hpp"
+#include "trampoline.hpp"
 
 #ifndef ARRAYSIZE
     #define ARRAYSIZE(A) (sizeof(A)/sizeof((A)[0]))

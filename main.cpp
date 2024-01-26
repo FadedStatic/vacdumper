@@ -2,7 +2,7 @@
 #include <string>
 
 #include "patternscanner/scanner.hpp"
-#include "minhook/MinHook.h"
+#include "minhook\MinHook.hpp"
 
 using vaclm_stub = char(__stdcall*)(DWORD* src, char flag);
 vaclm_stub vaclm_old;

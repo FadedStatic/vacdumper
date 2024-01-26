@@ -6,16 +6,16 @@ set(CMAKE_CXX_STANDARD 23)
 add_library(vacdumper SHARED main.cpp
         patternscanner/scanner.cpp
         patternscanner/scanner.hpp
-        minhook/buffer.c
-        minhook/buffer.h
-        minhook/hook.c
-        minhook/MinHook.h
-        minhook/trampoline.c
-        minhook/trampoline.h
-        minhook/hde/hde32.c
-        minhook/hde/hde32.h
-        minhook/hde/hde64.c
-        minhook/hde/hde64.h
-        minhook/hde/pstdint.h
-        minhook/hde/table32.h
-        minhook/hde/table64.h)
+        minhook/buffer.cpp
+        minhook/buffer.hpp
+        minhook/hook.cpp
+        minhook/MinHook.hpp
+        minhook/trampoline.cpp
+        minhook/trampoline.hpp
+        minhook/hde/hde32.cpp
+        minhook/hde/hde32.hpp
+        minhook/hde/hde64.cpp
+        minhook/hde/hde64.hpp
+        minhook/hde/pstdint.hpp
+        minhook/hde/table32.hpp
+        minhook/hde/table64.hpp)
